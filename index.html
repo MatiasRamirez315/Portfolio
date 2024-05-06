@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portfolio Matias Ramirez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilosPortfolio.css">
+    
+
+</head>
+<body style =" background-color: rgb(0, 195, 255);">
+
+    <h1 style = "font-size: 50px"> <bold><u>Matias Ramirez</u></bold> 
+        
+        <button class = "botones">
+            <a href="https://www.linkedin.com/in/matias-hernan-ramirez-a49530245/">
+                <img    src="imagenes/linkedin.jpg" 
+                        alt = "LinkedIn"
+                        width = 40px>
+                    
+            </a>
+        </button>
+        <button class = "botones">
+            <a href = "https://github.com/MatiasRamirez315">
+                <img    src = "imagenes/github.png" alt = "github"
+                        width = 40px
+                        alt = "github">
+            </a>
+        </button>
+        <button class = "botones">
+            <a href = "https://www.instagram.com/matiirami/">
+                <img src ="imagenes/instagram.jpg"
+                     width="40px"
+                     alt = "instagram">
+            </a>
+        </button>
+    </h1> 
+    <div class = "colorEncimaFondo">
+        <div class = "posicion">
+            <img width = 200px src="imagenes/fotoPerfilMatiasramirez.jpg" alt="Matias Ramirez">
+        </div>
+    </div>
+    
+
+    <div class = "CentrarTexto">
+        <h2> Sobre mi: </h2>
+        <p id = "saludo">Hola ! mi nombre es Matias Ramirez,tengo 25 años,</p> 
+        <p id = "estudiante">soy estudiante de la tecnicatura universitaria en programacion en la UTN de gral. Pacheco</p>
+        <h3>Mis conocimientos:</h3>
+        <img width = 100px src="imagenes/c.png" alt="c++">
+        <img width = 100px src="imagenes/cSharpie.png" alt="C#">
+        <img width = 100px src="imagenes/html.png" alt="HTML">
+        <img width = 100px src="imagenes/css.png" alt="CSS">
+        <img width = 100px src="imagenes/java.jpg" alt="JavaScript">
+        <img width = 150px src="imagenes/sql.png" alt="SQL">
+        <h3>Mis proyectos:</h3>
+    </div>
+    <h4><u>Sistema Hospitalario</u></h4>
+
+    <img width = 250px src="imagenes/menuMenues.png" alt="MenuPrincipal"></td>
+    <img width = 300px src="imagenes/cargacirugia.png" alt="CargaCirugia"> </td>
+    <img width = 300px src="imagenes/cargapaciente.png" alt="CargaPaciente"></td>
+    <img width = 350px src="imagenes/cargaProfe.png" alt="CargaProfesional"></td>
+    
+    <p>Este es un sistema de gestion de pacientes para un hospital, en el cual se pueden cargar los datos del paciente, su cirugia, asignarle un profesional, entre otras cosas. Desarrollado con C++ haciendo utilizacion de la libreria rlutil</p>
+
+    <h4><u>Sistema de Stock</u></h4>
+
+    <img width = 500px src="imagenes/buscarABM.png" alt="Buscar ABM">
+    <img width = 500px src="imagenes/detalleABM.png" alt="Detalle ABM">
+    <p>Este es un sistema que permite dar de alta, de baja, y modificar productos de Windows Form, desarrollada con C# haciendo uso de .Net y gestionando los datos con SQL</p>
+
+<div class = "colorEncimaFondo">
+    <h3><u>Contactame!</u></h4>
+    <div>   
+        <label>Ingrese su nombre:</label>
+        <input type = "text" id = "nombre">
+    </div>
+    <div>
+        <label>Ingrese su correo electronico:</label>
+        <input type = "email" id = "Email">
+    </div>
+    <div>
+        <label>Dejame tu comentario aca abajo</label>
+        <input type = "text" id = "comentario">
+    </div>
+    <div>
+     <button onclick="Enviar()" > enviar </button> 
+    </div>
+</div>
+
+<script src="codigoPortfolio.js"></script>
+</body>
+</html>
